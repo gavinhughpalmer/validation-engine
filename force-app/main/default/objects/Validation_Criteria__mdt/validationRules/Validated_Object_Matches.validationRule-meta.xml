@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validated_Object_Matches</fullName>
+    <active>true</active>
+    <description>Ensure the validated object matches that of the parent validation rule</description>
+    <errorConditionFormula>Validated_Object__c !=  Validation_Rule__r.Validated_Object__c</errorConditionFormula>
+    <errorDisplayField>Validated_Object__c</errorDisplayField>
+    <errorMessage>The object selected to be validated against does not match that on the parent validation rule</errorMessage>
+</ValidationRule>

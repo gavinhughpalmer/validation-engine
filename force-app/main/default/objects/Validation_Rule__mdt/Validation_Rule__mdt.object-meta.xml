@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This will be the top level definition for a validation rule, if the criteria defined are then hit a validation error message will fire</description>
+    <label>Validation Rule</label>
+    <pluralLabel>Validation Rules</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
